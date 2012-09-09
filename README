@@ -1,0 +1,32 @@
+Examples:
+
+$ python benchmark.py topological_sort inst_600000
+Module <module 'topological_sort'>
+Num vertices: 199496
+Num arcs: 600000
+Time: 15.645081996917725 s
+Feasible solution? True
+
+
+$ python benchmark.py topological_sort_recursive inst_600000
+Module <module 'topological_sort_recursive'>
+Num vertices: 199496
+Num arcs: 600000
+^C
+Too long...
+
+
+$ python benchmark.py proposed_topological_sort inst_600000
+Module <module 'proposed_topological_sort'>
+Num vertices: 199496
+Num arcs: 600000
+Time: 0.6334869861602783 s
+Feasible solution? True
+
+
+$ python benchmark.py proposed_topological_sort_recursive inst_600000
+Module <module 'proposed_topological_sort_recursive'>
+Num vertices: 199496
+Num arcs: 600000
+Time: 0.4905271530151367 s
+Feasible solution? True
